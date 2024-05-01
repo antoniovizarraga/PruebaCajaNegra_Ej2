@@ -24,6 +24,9 @@ class PruebasSelenium {
 	@Test
 	void test1() {
 		driver1.get("https://elenarivero.github.io/Ejercicio2/index.html");
+		
+		
+		
 		WebElement numeroBox = driver1.findElement(By.id("numero"));        
         WebElement direccionBox = driver1.findElement(By.id("directivo"));
         
@@ -31,7 +34,7 @@ class PruebasSelenium {
         direccionBox.sendKeys("-");
         
         
-        WebElement submitButton = driver1.findElement(By.linkText("Enviar"));
+        WebElement submitButton = driver1.findElement(By.cssSelector("input[type='submit'][value='Enviar']"));
         submitButton.click();
         
         WebElement errorNumero = driver1.findElement(By.id("errorNumero"));
@@ -50,7 +53,7 @@ class PruebasSelenium {
 	
 	@Test
 	void test2() {
-		driver1.get("https://elenarivero.github.io/ejercicio1/index.html");
+		driver1.get("https://elenarivero.github.io/Ejercicio2/index.html");
 		WebElement numeroBox = driver1.findElement(By.id("numero"));        
         WebElement direccionBox = driver1.findElement(By.id("directivo"));
         
@@ -58,7 +61,7 @@ class PruebasSelenium {
         direccionBox.sendKeys("-");
         
         
-        WebElement submitButton = driver1.findElement(By.linkText("Enviar"));
+        WebElement submitButton = driver1.findElement(By.cssSelector("input[type='submit'][value='Enviar']"));
         submitButton.click();
         
         WebElement errorNumero = driver1.findElement(By.id("errorNumero"));
@@ -73,7 +76,7 @@ class PruebasSelenium {
 	
 	@Test
 	void test3() {
-		driver1.get("https://elenarivero.github.io/ejercicio1/index.html");
+		driver1.get("https://elenarivero.github.io/Ejercicio2/index.html");
 		WebElement numeroBox = driver1.findElement(By.id("numero"));        
         WebElement direccionBox = driver1.findElement(By.id("directivo"));
         
@@ -81,7 +84,7 @@ class PruebasSelenium {
         direccionBox.sendKeys("-");
         
         
-        WebElement submitButton = driver1.findElement(By.linkText("Enviar"));
+        WebElement submitButton = driver1.findElement(By.cssSelector("input[type='submit'][value='Enviar']"));
         submitButton.click();
         
         WebElement errorNumero = driver1.findElement(By.id("errorNumero"));
@@ -96,7 +99,7 @@ class PruebasSelenium {
 	
 	@Test
 	void test4() {
-		driver1.get("https://elenarivero.github.io/ejercicio1/index.html");
+		driver1.get("https://elenarivero.github.io/Ejercicio2/index.html");
 		WebElement numeroBox = driver1.findElement(By.id("numero"));        
         WebElement direccionBox = driver1.findElement(By.id("directivo"));
         
@@ -104,7 +107,7 @@ class PruebasSelenium {
         direccionBox.sendKeys("-");
         
         
-        WebElement submitButton = driver1.findElement(By.linkText("Enviar"));
+        WebElement submitButton = driver1.findElement(By.cssSelector("input[type='submit'][value='Enviar']"));
         submitButton.click();
         
         WebElement errorNumero = driver1.findElement(By.id("errorNumero"));
@@ -119,7 +122,7 @@ class PruebasSelenium {
 	
 	@Test
 	void test5() {
-		driver1.get("https://elenarivero.github.io/ejercicio1/index.html");
+		driver1.get("https://elenarivero.github.io/Ejercicio2/index.html");
 		WebElement numeroBox = driver1.findElement(By.id("numero"));        
         WebElement direccionBox = driver1.findElement(By.id("directivo"));
         
@@ -127,7 +130,7 @@ class PruebasSelenium {
         direccionBox.sendKeys("");
         
         
-        WebElement submitButton = driver1.findElement(By.linkText("Enviar"));
+        WebElement submitButton = driver1.findElement(By.cssSelector("input[type='submit'][value='Enviar']"));
         submitButton.click();
         
         WebElement errorNumero = driver1.findElement(By.id("errorNumero"));
@@ -142,7 +145,7 @@ class PruebasSelenium {
 	
 	@Test
 	void test6() {
-		driver1.get("https://elenarivero.github.io/ejercicio1/index.html");
+		driver1.get("https://elenarivero.github.io/Ejercicio2/index.html");
 		WebElement numeroBox = driver1.findElement(By.id("numero"));        
         WebElement direccionBox = driver1.findElement(By.id("directivo"));
         
@@ -150,7 +153,7 @@ class PruebasSelenium {
         direccionBox.sendKeys("aads");
         
         
-        WebElement submitButton = driver1.findElement(By.linkText("Enviar"));
+        WebElement submitButton = driver1.findElement(By.cssSelector("input[type='submit'][value='Enviar']"));
         submitButton.click();
         
         WebElement errorNumero = driver1.findElement(By.id("errorNumero"));
@@ -165,7 +168,7 @@ class PruebasSelenium {
 	
 	@Test
 	void test7() {
-		driver1.get("https://elenarivero.github.io/ejercicio1/index.html");
+		driver1.get("https://elenarivero.github.io/Ejercicio2/index.html");
 		WebElement numeroBox = driver1.findElement(By.id("numero"));        
         WebElement direccionBox = driver1.findElement(By.id("directivo"));
         
@@ -173,7 +176,7 @@ class PruebasSelenium {
         direccionBox.sendKeys("+");
         
         
-        WebElement submitButton = driver1.findElement(By.linkText("Enviar"));
+        WebElement submitButton = driver1.findElement(By.cssSelector("input[type='submit'][value='Enviar']"));
         submitButton.click();
         
         WebElement errorNumero = driver1.findElement(By.id("errorNumero"));
@@ -188,7 +191,7 @@ class PruebasSelenium {
 	
 	@Test
 	void test8() {
-		driver1.get("https://elenarivero.github.io/ejercicio1/index.html");
+		driver1.get("https://elenarivero.github.io/Ejercicio2/index.html");
 		WebElement numeroBox = driver1.findElement(By.id("numero"));        
         WebElement direccionBox = driver1.findElement(By.id("directivo"));
         
@@ -196,7 +199,7 @@ class PruebasSelenium {
         direccionBox.sendKeys("+");
         
         
-        WebElement submitButton = driver1.findElement(By.linkText("Enviar"));
+        WebElement submitButton = driver1.findElement(By.cssSelector("input[type='submit'][value='Enviar']"));
         submitButton.click();
         
         WebElement errorNumero = driver1.findElement(By.id("errorNumero"));
